@@ -1,0 +1,48 @@
+
+.other_projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.other_projects__heading_title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.other_projects__heading p {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.other_projects__desp {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.other_projects__desp div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.other_projects__desp div button {
+    width: 5rem;
+}

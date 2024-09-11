@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.hero img {
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.hero__name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.hero__p {
+    text-align: center;
+}
+

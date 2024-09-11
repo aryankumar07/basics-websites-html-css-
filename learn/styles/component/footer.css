@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.footer h1 {
+    font-size: 600;
+}
+
+.footer p {
+    text-align: center;
+}
